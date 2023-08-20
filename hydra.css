@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@600&display=swap');
+
+body {
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 70%, rgba(66,0,0,1) 100%);
+}
+
+#app {
+  background-image: none !important;
+}
+
+.item {
+  background-image: none;
+  -webkit-box-shadow:0px 0px 20px 1px rgba(255,0,0,0.5);
+  -moz-box-shadow: 0px 0px 20px 1px rgba(255,0,0,0.5);
+  box-shadow: 0px 0px 20px 1px rgba(255,0,0,0.5);
+  background-color: transparent !important;
+  border: solid #ff5851 3px;
+  border-radius: 0px;
+}
+
+.item::after {
+  background: transparent;
+  box-shadow: none;
+  border-radius: none;
+}
+
+.link {
+  opacity: 0;
+}
+
+.details {
+  font-family: Oxanium;
+}
+
+.title {
+  color: #ff5851 !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#config-buttons a {
+  color: #ff5851;
+}
+
+.app-icon-container {
+  display: none;
+}
